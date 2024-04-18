@@ -1,3 +1,55 @@
 #B-A-N-A-N-A-S{
     color: yellow;
 }
+
+.page {
+    width: 960px;
+    padding: 50px 50px;
+    margin: 30px auto;
+    border-radius: 2%;
+    background-color: #81e4e4;
+    /*light blue*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.banana {
+    height: 500px;
+    width: 500px;
+    top: 80px;
+    position: relative;
+}
+
+.banana-body {
+    height: 80%;
+    width: 0px;
+    top: 50px;
+    left: 160px;
+    border-right: 180px solid #ecec13;
+    /* yellow */
+    border-radius: 0 150px 150px 0%;
+    position: absolute;
+    transform: rotate(15deg);
+}
+
+.banana-outline {
+    height: 120%;
+    width: 0px;
+    top: -20px;
+    left: -50px;
+    border-top: 30px solid transparent;
+    border-right: 120px solid #81e4e4;
+    /* light blue  */
+    border-radius: 0 120px 120px 0%;
+    position: absolute;
+}
